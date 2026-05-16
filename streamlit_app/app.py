@@ -8,6 +8,12 @@ Run locally:
 Deploy to Streamlit Cloud:
     See docs/deployment.md
 """
+import sys
+import os
+
+# Add project root to Python path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from config import OPENAI_API_KEY, GOOGLE_API_KEY
 import google.generativeai as genai
 
