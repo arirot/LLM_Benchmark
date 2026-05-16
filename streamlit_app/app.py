@@ -8,6 +8,11 @@ Run locally:
 Deploy to Streamlit Cloud:
     See docs/deployment.md
 """
+from config import OPENAI_API_KEY, GOOGLE_API_KEY
+import google.generativeai as genai
+
+genai.configure(api_key=GOOGLE_API_KEY)
+
 
 import streamlit as st
 
