@@ -6,8 +6,8 @@ Upload a .sol file and run it against selected LLM models.
 import time
 import streamlit as st
 
-st.set_page_config(page_title="Custom Audit — SC Audit Studio", page_icon="📁", layout="wide")
-st.title("📁 Custom Contract Audit")
+st.set_page_config(page_title="Smart Contract Audit — SC Audit Studio", page_icon="📁", layout="wide")
+st.title("📁 Smart Contract Audit")
 st.markdown(
     "Upload your own Solidity smart contract and test it against any combination of LLM models. "
     "Accepted file type: `.sol` — max 500 KB."
