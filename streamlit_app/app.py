@@ -85,7 +85,7 @@ with st.sidebar:
 | 🔍 Vulnerabilities | Test case dataset |
 | 🤖 Model Registry | Model specs |
 | 📐 Baseline Metrics | Scoring methodology |
-| 📁 Custom Audit | Upload your .sol file |
+| 📁 Smart Contract Audit | Upload your .sol file |
     """)
     st.divider()
     st.caption("Benchmark date: May 2025 · 15 test cases · 4 models")
